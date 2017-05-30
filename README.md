@@ -10,13 +10,13 @@ Check out the full article on how to automate docker builds end-to-end: [Brianch
 Usage
 -----
 
-To create the image `vegasbrianc/docker-hello-world`, execute the following command on the docker-hello-world folder:
+To create the image `siru88/docker-hello-world`, execute the following command on the docker-hello-world folder:
 
-	docker build -t vegasbrianc/docker-hello-world .
+	docker build -t siru88/docker-hello-world .
 
 You can now push your new image to the registry:
 
-	sudo docker push vegasbrianc/docker-hello-world
+	sudo docker push siru88/docker-hello-world
 
 
 Running your Hello World docker image
@@ -24,7 +24,7 @@ Running your Hello World docker image
 
 Start your image:
 
-	sudo docker run -d -p 80 vegasbrianc/docker-hello-world
+	sudo docker run -d -p 80 siru88/docker-hello-world
 
 It will print the new container ID (like `d35bf1374e88`). Get the allocated external port:
 
